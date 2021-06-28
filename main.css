@@ -1,0 +1,64 @@
+.circle{
+
+	position: fixed;
+	width:40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: ;
+	top:50px;
+	left:20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:#CC00E2FF;
+}
+
+.del{
+	top:130px;
+	opacity: 0;
+	background-color: black;
+
+	transition: 3.4s;
+}
+.wrapper{
+	margin-top: 50px;
+}
+.active {
+	opacity: 1;
+	cursor: pointer;
+	background-color: ;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+	grid-auto-rows: minmax(200px,auto);
+	grid-gap: 20px;
+	justify-content:center;
+}
+
+.grid div {
+	background-color: #28314E;
+	border: 1px solid #212941;
+	border-radius: 5px;
+	padding: 8px 15px;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: roboto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+	
+	
+}
+div .last{
+	background-color: blue;
+    cursor:pointer;
+	transition:0.5s;
+	order: 1;
+
+}
+.last:hover {
+		background:lightgreen;
+}
